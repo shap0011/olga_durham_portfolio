@@ -1,9 +1,8 @@
-# Olga Durham Portfolio
-Machine Learning Portfolio
+## Machine Learning Portfolio
 
-## [Project 1: Core features of the Pandas library](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
+### [Project 1: Core features of the Pandas library](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
 
----
+***
 
 In the **Pandas_class.ipynb** file, I explore the core features of the Pandas library, a vital tool for data manipulation in Python. The file covers the following topics:  
 
@@ -16,5 +15,5 @@ In the **Pandas_class.ipynb** file, I explore the core features of the Pandas li
 
 This project highlights practical skills in data handling and serves as a valuable component of my Machine Learning Portfolio.  
 
---- 
+***
 
