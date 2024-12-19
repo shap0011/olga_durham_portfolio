@@ -26,7 +26,7 @@ This project highlights practical skills in data handling.
 In the **Goodlife_Fitness_Solutions.ipynb** file, I perform a descriptive analysis to create customer profiles for each GoodLife Fitness membership option. This analysis explores key statistical insights and visualizations, covering the following topics:  
 
 - **Importing Libraries and Loading the Dataset**: Import the necessary Python packages and load the *GoodlifeFitness.csv* dataset.  
-- **Basic Data Exploration**: Print basic information about the dataset, check for null values, and review the structure of the data.  
+- **Basic Data Exploration**: Print basic information about the dataset, check for null values, and review the data's structure.  
 - **Univariate Analysis**:  
   - Examine the five-number summary statistics.  
   - Analyze the dataset's summary, including descriptive stats for categorical data.  
@@ -42,6 +42,30 @@ In the **Goodlife_Fitness_Solutions.ipynb** file, I perform a descriptive analys
   - Apply `pd.pivot_table` to explore data by *Income* and *Type*.  
   - Create scatter plots using Pandas for further insights.  
 
-This case study demonstrates the application of descriptive statistics and visualization techniques to uncover actionable insights in the context of fitness memberships.
+This case study demonstrates the application of descriptive statistics and visualization techniques to uncover actionable insights regarding fitness memberships.
+
+---
+
+### [Project 3: Standardization of Normal Variables - Z-Score Analysis](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Z_score_Statistics.ipynb)
+
+---
+
+In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variables using the Z-score method. This file includes the following steps:  
+
+- **Mounting Google Drive in Google Colab**: Access files stored in Google Drive to enable seamless data loading.  
+- **Importing Libraries and Loading the Dataset**: Load the necessary Python packages and read the *scores.csv* file into a DataFrame.  
+- **Visualizing the Data Distribution**:  
+  - Use the Seaborn library for visualization.  
+  - Plot the distributions of *SAT* and *ACT* scores.  
+- **Calculating Mean and Standard Deviation**:  
+  - Compute the mean and standard deviation for *SAT* and *ACT* scores.  
+  - Determine the Z-score for the highest scorer in *SAT* and *ACT* among all applicants.  
+- **Applying the Z-Score to All Scores**: Standardize the entire table by applying the Z-score formula to all values.  
+- **Fit-Transform Using StandardScaler**:  
+  - Import `StandardScaler` from `sklearn.preprocessing`.  
+  - Initialize the scaler and apply it to the *SATscore* and *ACTscore* columns using `fit` and `transform` methods, or utilize `fit_transform` directly.  
+  - Display the updated DataFrame to confirm standardization.  
+
+This project highlights the use of Z-score standardization and the application of Python libraries to prepare data for further analysis.
 
 ---
