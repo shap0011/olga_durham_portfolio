@@ -1,10 +1,13 @@
 ## Machine Learning Portfolio
 
-### [Project 1: Core features of the Pandas library](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
+### Project 1: Core features of the Pandas library
 
----
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
 
-In the **Pandas_class.ipynb** file, I explore the core features of the Pandas library, a vital tool for data manipulation in Python. The file covers the following topics:  
+In the **Pandas_class.ipynb** file, I explore the core features of the Pandas library, a vital tool for data manipulation in Python. The file covers the following topics: 
+
+<details>
+  <summary>$${\color{brown}Click \space to \space see \space details...}$$</summary>
 
 - **Creating a Python Library and Accessing it in Google Colab**: Mounting a Google Drive folder to integrate external files into the Colab environment.  
 - **Importing Modules (Pandas)**: Setting up the environment for efficient data analysis.  
@@ -15,15 +18,17 @@ In the **Pandas_class.ipynb** file, I explore the core features of the Pandas li
 
 This project highlights practical skills in data handling.  
 
----
-
-### [Project 2: Descriptive Statistics - Goodlife Fitness Case Study](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Goodlife_Fitness_Solution.ipynb)
+</details>
 
 ---
 
-**Descriptive Statistics - GoodLife Fitness Case Study**  
+### Project 2: Descriptive Statistics - Goodlife Fitness Case Study
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Goodlife_Fitness_Solution.ipynb)
 
 In the **Goodlife_Fitness_Solutions.ipynb** file, I perform a descriptive analysis to create customer profiles for each GoodLife Fitness membership option. This analysis explores key statistical insights and visualizations, covering the following topics:  
+
+<details>
+  <summary>$${\color{brown}Click \space to \space see \space details...}$$</summary>
 
 - **Importing Libraries and Loading the Dataset**: Import the necessary Python packages and load the *GoodlifeFitness.csv* dataset.  
 - **Basic Data Exploration**: Print basic information about the dataset, check for null values, and review the data's structure.  
@@ -44,13 +49,17 @@ In the **Goodlife_Fitness_Solutions.ipynb** file, I perform a descriptive analys
 
 This case study demonstrates the application of descriptive statistics and visualization techniques to uncover actionable insights regarding fitness memberships.
 
----
-
-### [Project 3: Standardization of Normal Variables - Z-Score Analysis](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Z_score_Statistics.ipynb)
+</details>
 
 ---
 
-In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variables using the Z-score method. This file includes the following steps:  
+### Project 3: Standardization of Normal Variables - Z-Score Analysis 
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Z_score_Statistics.ipynb)
+
+In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variables using the Z-score method. This file includes the following steps: 
+
+<details>
+  <summary>$${\color{brown}Click \space to \space see \space details...}$$</summary>
 
 - **Mounting Google Drive in Google Colab**: Access files stored in Google Drive to enable seamless data loading.  
 - **Importing Libraries and Loading the Dataset**: Load the necessary Python packages and read the *scores.csv* file into a DataFrame.  
@@ -64,21 +73,21 @@ In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variabl
 - **Fit-Transform Using StandardScaler**:  
   - Import `StandardScaler` from `sklearn.preprocessing`.  
   - Initialize the scaler and apply it to the *SATscore* and *ACTscore* columns using `fit` and `transform` methods, or utilize `fit_transform` directly.  
-  - Display the updated DataFrame to confirm standardization.  
+  - Display the updated DataFrame to confirm standardization.
 
 This project highlights the use of Z-score standardization and the application of Python libraries to prepare data for further analysis.
 
----
-
-### Project 4: Data Visualization with Python
-[Click to see open in Colab file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Visualization.ipynb)
+</details>
 
 ---
+
+### Project 4: Data Visualization with Python 
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Visualization.ipynb)
 
 The **`Data_Visualization.ipynb`** file explores data visualization techniques to gain insights, identify patterns, and draw conclusions using Python.
 
 <details>
-  <summary><span style="color:red">Click to see details...</span></summary>
+  <summary>$${\color{brown}Click \space to \space see \space details...}$$</summary>
   
 #### Visualization Libraries in Python
 - **Seaborn** and **Matplotlib**:
