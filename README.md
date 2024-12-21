@@ -69,3 +69,92 @@ In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variabl
 This project highlights the use of Z-score standardization and the application of Python libraries to prepare data for further analysis.
 
 ---
+
+### Project 4: Data Visualization with Python
+[Click to see open in Colab file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Visualization.ipynb)
+
+---
+
+The **`Data_Visualization.ipynb`** file explores data visualization techniques to gain insights, identify patterns, and draw conclusions using Python.
+
+<details>
+  <summary><span style="color:red">Click to see details...</span></summary>
+  
+#### Visualization Libraries in Python
+- **Seaborn** and **Matplotlib**:
+  - Install or import Seaborn (`import seaborn as sns`).
+  - Import Matplotlib (`import matplotlib.pyplot as plt`).
+  - Retrieve sample datasets from the Seaborn library.
+  - Load the `tips` dataset (`df = sns.load_dataset('tips')`).
+  - Perform data exploration:
+    - Check variable types.
+    - Preview the top 5 rows.
+    - Return a summary of the DataFrame.
+
+#### Key Visualization Tasks
+
+**Relationship Between Total Bill and Tip Amount**:
+   - Use a scatter plot to visualize and analyze the relationship.
+   - Determine the type of correlation (positive, negative, or none).
+
+**Strip Plot**:
+   - Visualize average tip amounts by day of the week and time of day:
+     - `tip` vs. `day`
+     - `tip` vs. `time`
+
+**Bar Plot**:
+   - Display average tip amounts:
+     - By day of the week.
+     - By party size.
+     - By smoker status.
+     - By gender.
+
+**Pair Plot**:
+   - Plot pairwise relationships in the `tips` dataset.
+   - Use the `hue` parameter (e.g., by `sex`).
+
+**Distribution Plot**:
+   - Use `displot()` to visualize a univariate variable distribution:
+     - Plot a histogram with a kernel density estimate (KDE).
+     - Calculate and annotate the mean, median, and mode.
+
+**Count Plot**:
+   - Visualize counts of observations in each category:
+     - Create a count plot by day, with `time` as the hue.
+
+**Heatmap**:
+   - Display correlations as a two-dimensional heatmap:
+     - Each square represents the correlation between two variables.
+
+**Scatter Plot**:
+   - Customize scatter plots for `total_bill` vs. `tip`:
+     - Experiment with colors, opacity, and shapes of data points.
+
+**Bar Plot**:
+   - Create vertical bar plots to display categorical data:
+     - Plot smoker and non-smoker counts using Matplotlib.
+
+**Pie Plot**:
+    - Visualize univariate data distribution:
+      - Plot the occurrence of different days.
+
+**Exploded Pie Plot**:
+    - Separate one or more sectors from the pie:
+      - Plot the occurrence of days with an exploded view.
+
+ **Histogram**:
+    - Analyze the distribution and spread of continuous variables:
+      - Plot a histogram for the `tip` variable.
+
+**Box Plot**:
+    - Visualize the five-number summary:
+      - Plot the boxplot of `total_bill` to check for outliers.
+
+**Subplots**:
+    - Create multiple plots within a single canvas:
+      - Use `plt.subplot(numrows, numcols, plot_number)` to position plots.
+      - Add a strip plot to visualize `tip` vs. `day`.
+</details>
+
+---
+
