@@ -7,7 +7,7 @@
 In the **Pandas_class.ipynb** file, I explore the core features of the Pandas library, a vital tool for data manipulation in Python. The file covers the following topics: 
 
 <details>
-  <summary>Click to see details</summary>
+  <summary>Click to see details</summary><br>
 
 - **Creating a Python Library and Accessing it in Google Colab**: Mounting a Google Drive folder to integrate external files into the Colab environment.  
 - **Importing Modules (Pandas)**: Setting up the environment for efficient data analysis.  
@@ -28,7 +28,7 @@ This project highlights practical skills in data handling.
 In the **Goodlife_Fitness_Solutions.ipynb** file, I perform a descriptive analysis to create customer profiles for each GoodLife Fitness membership option. This analysis explores key statistical insights and visualizations, covering the following topics:  
 
 <details>
-  <summary>Click to see details</summary>
+  <summary>Click to see details</summary><br>
 
 - **Importing Libraries and Loading the Dataset**: Import the necessary Python packages and load the *GoodlifeFitness.csv* dataset.  
 - **Basic Data Exploration**: Print basic information about the dataset, check for null values, and review the data's structure.  
@@ -59,7 +59,7 @@ This case study demonstrates the application of descriptive statistics and visua
 In the **Z_score_Statistics.ipynb** file, I perform standardizing normal variables using the Z-score method. This file includes the following steps: 
 
 <details>
-  <summary>Click to see details</summary>
+  <summary>Click to see details</summary><br>
 
 - **Mounting Google Drive in Google Colab**: Access files stored in Google Drive to enable seamless data loading.  
 - **Importing Libraries and Loading the Dataset**: Load the necessary Python packages and read the *scores.csv* file into a DataFrame.  
