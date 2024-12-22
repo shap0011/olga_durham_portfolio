@@ -9,6 +9,19 @@ In the **Pandas_class.ipynb** file, I explore the core features of the Pandas li
 <details>
   <summary>Click to see details</summary>
 
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+- **Creating a Python Library and Accessing it in Google Colab**: Mounting a Google Drive folder to integrate external files into the Colab environment.  
+- **Importing Modules (Pandas)**: Setting up the environment for efficient data analysis.  
+- **Pandas DataFrame**: Reading data from a CSV file and exploring structured data tables.  
+- **Indexing DataFrame**: Utilizing `.loc` and `.iloc` methods to perform operations such as retrieving values from specific rows and columns, selecting multiple rows, and specifying ranges of rows and columns.  
+- **Manipulating DataFrame**: Executing operations such as adding new columns and rows, sorting the DataFrame, dropping rows and columns, removing duplicates, and checking for missing values.  
+- **Reading Data from Different Sources**: Loading datasets from formats like `.xlsx`, `.txt`, `.zip`, `.html`, and `.json`.  
+
 - **Creating a Python Library and Accessing it in Google Colab**: Mounting a Google Drive folder to integrate external files into the Colab environment.  
 - **Importing Modules (Pandas)**: Setting up the environment for efficient data analysis.  
 - **Pandas DataFrame**: Reading data from a CSV file and exploring structured data tables.  
