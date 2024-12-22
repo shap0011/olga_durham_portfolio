@@ -1,3 +1,8 @@
+---
+layout: "post"
+title: "New Title"
+---
+
 ## Machine Learning Portfolio
 
 ### Project 1: Core features of the Pandas library
