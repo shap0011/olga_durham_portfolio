@@ -76,19 +76,30 @@ In the `Z_score_Statistics.ipynb` file, I perform standardizing normal variables
 <details>
   <summary>Click to see details</summary>
 
-- **Mounting Google Drive in Google Colab**: Access files stored in Google Drive to enable seamless data loading.  
-- **Importing Libraries and Loading the Dataset**: Load the necessary Python packages and read the *scores.csv* file into a DataFrame.  
-- **Visualizing the Data Distribution**:  
-  - Use the Seaborn library for visualization.  
-  - Plot the distributions of *SAT* and *ACT* scores.  
-- **Calculating Mean and Standard Deviation**:  
-  - Compute the mean and standard deviation for *SAT* and *ACT* scores.  
-  - Determine the Z-score for the highest scorer in *SAT* and *ACT* among all applicants.  
-- **Applying the Z-Score to All Scores**: Standardize the entire table by applying the Z-score formula to all values.  
-- **Fit-Transform Using StandardScaler**:  
-  - Import `StandardScaler` from `sklearn.preprocessing`.  
-  - Initialize the scaler and apply it to the *SATscore* and *ACTscore* columns using `fit` and `transform` methods, or utilize `fit_transform` directly.  
-  - Display the updated DataFrame to confirm standardization.
+<ul>
+  <li><strong>Mounting Google Drive in Google Colab</strong>: Access files stored in Google Drive to enable seamless data loading.</li>
+  <li><strong>Importing Libraries and Loading the Dataset</strong>: : Load the necessary Python packages and read the <code>scores.csv</code> file into a DataFrame.</li>
+  <li><strong>Visualizing the Data Distribution</strong>:
+    <ul>
+      <li>Use the Seaborn library for visualization.</li>
+      <li>Plot the distributions of <code>SAT</code> and <code>ACT</code> scores.</li>
+    </ul>
+  </li>
+  <li><strong>Calculating Mean and Standard Deviation</strong>:
+    <ul>
+      <li>Compute the mean and standard deviation for <code>SAT</code> and <code>ACT</code> scores.</li>
+      <li>Determine the Z-score for the highest scorer in <code>SAT</code> and <code>ACT</code> among all applicants.</li>
+    </ul>
+  </li>
+  <li><strong>Applying the Z-Score to All Scores</strong>: Standardize the entire table by applying the Z-score formula to all values.</li>
+  <li><strong>Fit-Transform Using StandardScaler</strong>:
+    <ul>
+      <li>Import <code>StandardScaler</code> from <code>sklearn.preprocessing</code>.</li>
+      <li>Initialize the scaler and apply it to the <code>SATscore</code> and <code>ACTscore</code> columns using <code>fit</code> and <code>transform</code> methods, or utilize <code>fit_transform</code> directly. </li>
+      <li>Display the updated DataFrame to confirm standardization.</li>
+    </ul>
+  </li>
+</ul>
 
 <p>This project highlights the use of Z-score standardization and the application of Python libraries to prepare data for further analysis.</p>
 
@@ -104,80 +115,196 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
 <details>
   <summary>Click to see details</summary>
   
-#### Visualization Libraries in Python
-- **Seaborn** and **Matplotlib**:
-  - Install or import Seaborn (`import seaborn as sns`).
-  - Import Matplotlib (`import matplotlib.pyplot as plt`).
-  - Retrieve sample datasets from the Seaborn library.
-  - Load the `tips` dataset (`df = sns.load_dataset('tips')`).
-  - Perform data exploration:
-    - Check variable types.
-    - Preview the top 5 rows.
-    - Return a summary of the DataFrame.
+<h4>Visualization Libraries in Python</h4>
 
-#### Key Visualization Tasks
+<ul>
+  <li><strong>Seaborn</strong> and <strong>Matplotlib</strong>
+    <ul>
+      <li>Install or import Seaborn (<code>import seaborn as sns</code>).</li>
+      <li>Import Matplotlib (<code>import matplotlib.pyplot as plt</code>).</li>
+      <li>Retrieve sample datasets from the Seaborn library.</li>
+      <li>Load the <code>tips</code> dataset (<code>df = sns.load_dataset('tips')</code>).</li>
+      <li>Perform data exploration:
+        <ul>
+          <li>Check variable types.</li>
+          <li>Preview the top 5 rows.</li>
+          <li>Return a summary of the DataFrame.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Relationship Between Total Bill and Tip Amount**:
-   - Use a scatter plot to visualize and analyze the relationship.
-   - Determine the type of correlation (positive, negative, or none).
+<h4>Key Visualization Tasks</h4>
 
-**Strip Plot**:
-   - Visualize average tip amounts by day of the week and time of day:
-     - `tip` vs. `day`
-     - `tip` vs. `time`
+<ul>
+  <li><strong>Relationship Between Total Bill and Tip Amount</strong>:
+    <ul>
+      <li>Use a scatter plot to visualize and analyze the relationship.</li>
+      <li>Determine the type of correlation (positive, negative, or none).</li>
+    </ul>
+  </li>
+</ul>
 
-**Bar Plot**:
-   - Display average tip amounts:
-     - By day of the week.
-     - By party size.
-     - By smoker status.
-     - By gender.
+<ul>
+  <li><strong>Strip Plo</strong></li>
+    <ul>
+      <li>Visualize average tip amounts by day of the week and time of day:</li>
+        <ul>
+          <li><code>tip</code> vs. <code>day</code></li>
+          <li><code>tip</code> vs. <code>time</code></li>
+        </ul>
+      <li>Green tea</li>
+    </ul>
+  </li>
+</ul>
 
-**Pair Plot**:
-   - Plot pairwise relationships in the `tips` dataset.
-   - Use the `hue` parameter (e.g., by `sex`).
+<ul>
+  <li><strong>Bar Plot</strong>:
+    <ul>
+      <li>Display average tip amounts:
+        <ul>
+          <li>By day of the week.</li>
+          <li>By party size.</li>
+          <li>By smoker status.</li>
+          <li>By gender.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Distribution Plot**:
-   - Use `displot()` to visualize a univariate variable distribution:
-     - Plot a histogram with a kernel density estimate (KDE).
-     - Calculate and annotate the mean, median, and mode.
+<ul>
+  <li><strong>Pair Plot</strong>:
+    <ul>
+      <li>Plot pairwise relationships in the <code>tips</code> dataset.</li>
+      <li>Use the <code>hue</code> parameter (e.g., by <code>sex</code>).</li>
+    </ul>
+  </li>
+</ul>
 
-**Count Plot**:
-   - Visualize counts of observations in each category:
-     - Create a count plot by day, with `time` as the hue.
+<ul>
+  <li><strong>Distribution Plot</strong>:
+    <ul>
+      <li>Use <code>displot()</code> to visualize a univariate variable distribution:
+        <ul>
+          <li>Plot a histogram with a kernel density estimate (KDE).</li>
+          <li>Calculate and annotate the mean, median, and mode.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Heatmap**:
-   - Display correlations as a two-dimensional heatmap:
-     - Each square represents the correlation between two variables.
+<ul>
+  <li><strong>Count Plot</strong>:
+    <ul>
+      <li>Visualize counts of observations in each category:
+        <ul>
+          <li>Create a count plot by day, with <code>time</code> as the hue.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Scatter Plot**:
-   - Customize scatter plots for `total_bill` vs. `tip`:
-     - Experiment with colors, opacity, and shapes of data points.
+<ul>
+  <li><strong>Heatmap</strong>:
+    <ul>
+      <li>Display correlations as a two-dimensional heatmap:
+        <ul>
+          <li>Each square represents the correlation between two variables.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Bar Plot**:
-   - Create vertical bar plots to display categorical data:
-     - Plot smoker and non-smoker counts using Matplotlib.
+<ul>
+  <li><strong>Scatter Plot</strong>:
+    <ul>
+      <li>Customize scatter plots for <code>total_bill</code> vs. <code>tip</code>:
+        <ul>
+          <li>Experiment with colors, opacity, and shapes of data points.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Pie Plot**:
-    - Visualize univariate data distribution:
-      - Plot the occurrence of different days.
+<ul>
+  <li><strong>Bar Plot</strong>:
+    <ul>
+      <li>Create vertical bar plots to display categorical data:
+        <ul>
+          <li>Plot smoker and non-smoker counts using Matplotlib.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Exploded Pie Plot**:
-    - Separate one or more sectors from the pie:
-      - Plot the occurrence of days with an exploded view.
+<ul>
+  <li><strong>Pie Plot</strong>:
+    <ul>
+      <li>Visualize univariate data distribution:
+        <ul>
+          <li>Plot the occurrence of different days.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
- **Histogram**:
-    - Analyze the distribution and spread of continuous variables:
-      - Plot a histogram for the `tip` variable.
+<ul>
+  <li><strong>Exploded Pie Plot</strong>:
+    <ul>
+      <li>Separate one or more sectors from the pie:
+        <ul>
+          <li>Plot the occurrence of days with an exploded view.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Box Plot**:
-    - Visualize the five-number summary:
-      - Plot the boxplot of `total_bill` to check for outliers.
+<ul>
+  <li><strong>Histogram</strong>:
+    <ul>
+      <li>Analyze the distribution and spread of continuous variables:
+        <ul>
+          <li>Plot a histogram for the <code>tip</code> variable.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
 
-**Subplots**:
-    - Create multiple plots within a single canvas:
-      - Use `plt.subplot(numrows, numcols, plot_number)` to position plots.
-      - Add a strip plot to visualize `tip` vs. `day`.
+<ul>
+  <li><strong>Box Plot</strong>:
+    <ul>
+      <li>Visualize the five-number summary:
+        <ul>
+          <li>Plot the boxplot of <code>total_bill</code> to check for outliers.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul> 
+
+<ul>
+  <li><strong>Subplots</strong>:
+    <ul>
+      <li>Create multiple plots within a single canvas:
+        <ul>
+          <li>Use <code>plt.subplot(numrows, numcols, plot_number)</code> to position plots.</li>
+          <li>Add a strip plot to visualize <code>tip</code> vs. <code>day</code>.</li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul> 
+
 </details>
 
 <p>The project highlights the use of powerful visualization libraries like Matplotlib and Seaborn to explore, analyze, and interpret data through various graphical representations, enabling insights into patterns, relationships, and distributions within the dataset.</p>
