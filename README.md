@@ -13,19 +13,12 @@ In the **Pandas_class.ipynb** file, I explore the core features of the Pandas li
   <li><b>Creating a Python Library and Accessing it in Google Colab</b>: Mounting a Google Drive folder to integrate external files into the Colab environment.</li>
   <li><b>Importing Modules (Pandas)</b>: Setting up the environment for efficient data analysis.</li>
   <li><b>Pandas DataFrame</b>: Reading data from a CSV file and exploring structured data tables.</li>
-  <li><b>Indexing DataFrame</b>: Utilizing `.loc` and `.iloc` methods to perform operations such as retrieving values from specific rows and columns, selecting multiple rows, and specifying ranges of rows and columns.</li>
+  <li><b>Indexing DataFrame</b>: Utilizing <code>.loc</code> and <code>.iloc</code> methods to perform operations such as retrieving values from specific rows and columns, selecting multiple rows, and specifying ranges of rows and columns.</li>
   <li><b>Manipulating DataFrame</b>: Executing operations such as adding new columns and rows, sorting the DataFrame, dropping rows and columns, removing duplicates, and checking for missing values.</li>
-  <li><b>Reading Data from Different Sources</b>: Loading datasets from formats like `.xlsx`, `.txt`, `.zip`, `.html`, and `.json`. </li>
+  <li><b>Reading Data from Different Sources</b>: Loading datasets from formats like <code>.xlsx</code>, <code>.txt</code>, <code>.zip</code>, <code>.html</code>, and <code>.json</code>. </li>
 </ul>
 
-- **Creating a Python Library and Accessing it in Google Colab**: Mounting a Google Drive folder to integrate external files into the Colab environment.  
-- **Importing Modules (Pandas)**: Setting up the environment for efficient data analysis.  
-- **Pandas DataFrame**: Reading data from a CSV file and exploring structured data tables.  
-- **Indexing DataFrame**: Utilizing `.loc` and `.iloc` methods to perform operations such as retrieving values from specific rows and columns, selecting multiple rows, and specifying ranges of rows and columns.  
-- **Manipulating DataFrame**: Executing operations such as adding new columns and rows, sorting the DataFrame, dropping rows and columns, removing duplicates, and checking for missing values.  
-- **Reading Data from Different Sources**: Loading datasets from formats like `.xlsx`, `.txt`, `.zip`, `.html`, and `.json`.  
-
-This project highlights practical skills in data handling.  
+<p>This project highlights practical skills in data handling.</p>  
 
 </details>
 
