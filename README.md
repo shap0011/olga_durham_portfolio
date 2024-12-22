@@ -147,14 +147,14 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
 </ul>
 
 <ul>
-  <li><strong>Strip Plo</strong></li>
+  <li><strong>Strip Plot</strong>:
     <ul>
-      <li>Visualize average tip amounts by day of the week and time of day:</li>
+      <li>Visualize average tip amounts by day of the week and time of day:
         <ul>
           <li><code>tip</code> vs. <code>day</code></li>
           <li><code>tip</code> vs. <code>time</code></li>
         </ul>
-      <li>Green tea</li>
+      </li>
     </ul>
   </li>
 </ul>
@@ -305,9 +305,9 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
   </li>
 </ul> 
 
-</details>
-
 <p>The project highlights the use of powerful visualization libraries like Matplotlib and Seaborn to explore, analyze, and interpret data through various graphical representations, enabling insights into patterns, relationships, and distributions within the dataset.</p>
+
+</details>
 
 ---
 
