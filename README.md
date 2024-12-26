@@ -396,7 +396,7 @@ In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transactio
 ### Project 6: Data Cleaning
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Cleaning_Solution.ipynb)
 
-In Data_Cleaning_Solution.ipynb, I focus on identifying and addressing issues in the dataset, such as handling missing values, detecting and removing outliers, and ensuring data consistency to prepare it for effective model building.
+In `Data_Cleaning_Solution.ipynb`, I focus on identifying and addressing issues in the dataset, such as handling missing values, detecting and removing outliers, and ensuring data consistency to prepare it for effective model building.
 
 <details>
   <summary>Click to see details</summary>
@@ -455,7 +455,7 @@ In Data_Cleaning_Solution.ipynb, I focus on identifying and addressing issues in
   </li>
 </ul>
 
-<p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as `cleaned_df.csv`, which serves as the foundation for further analysis and model development.</p>
+<p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as <code>cleaned_df.csv</code>, which serves as the foundation for further analysis and model development.</p>
 
 </details>
 
