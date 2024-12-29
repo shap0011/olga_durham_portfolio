@@ -8,7 +8,7 @@ In the `Pandas_class.ipynb` file, I explore the core features of the Pandas libr
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Creating a Python Library and Accessing it in Google Colab</strong>: Mounting a Google Drive folder to integrate external files into the Colab environment.</li>
   <li><strong>Importing Modules (Pandas)</strong>: Setting up the environment for efficient data analysis.</li>
@@ -31,6 +31,7 @@ This section, the `Forbes_Billionaire_Homework.ipynb` file, showcases in-class p
 
 <details>
   <summary>Click to see details</summary>
+  <br>
   <ul>
   <li><strong>Mounting Google Drive in Google Colab:</strong>Enables seamless access to files stored in Google Drive for data loading.</li>
   <li><strong>Importing the Pandas Library</strong></li>
@@ -123,6 +124,7 @@ In the `Goodlife_Fitness_Solutions.ipynb` file, I perform a descriptive analysis
 
 <details>
   <summary>Click to see details</summary>
+  <br>
   <ul>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: Import the necessary Python packages and load the <code>GoodlifeFitness.csv</code> dataset.</li>
   <li><strong>Basic Data Exploration</strong>: Print basic information about the dataset, check for null values, and review the data's structure.</li>
@@ -167,7 +169,7 @@ In the `Z_score_Statistics.ipynb` file, I perform standardizing normal variables
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab</strong>: Access files stored in Google Drive to enable seamless data loading.</li>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: : Load the necessary Python packages and read the <code>scores.csv</code> file into a DataFrame.</li>
@@ -206,7 +208,7 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
 
 <details>
   <summary>Click to see details</summary>
-  
+
 <h4>Visualization Libraries in Python</h4>
 
 <ul>
@@ -410,7 +412,7 @@ In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transactio
 
 <details>
   <summary>Click to see details</summary>
-  
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab</strong>: Access files stored in Google Drive to enable seamless data loading.</li>
   <li><strong>Importing Libraries and Loading the Dataset</strong>: 
@@ -492,7 +494,7 @@ In `Data_Cleaning_Solution.ipynb`, I focus on identifying and addressing issues 
 
 <details>
   <summary>Click to see details</summary>
-
+  <br>
 <ul>
   <li><strong>Mounting Google Drive in Google Colab:</strong>
     <ul>
