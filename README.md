@@ -555,3 +555,19 @@ In `Data_Cleaning_Solution.ipynb`, I focus on identifying and addressing issues 
 
 ---
 
+### Project 8: Feature Engineering
+[Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Feature_Engineering_Solution.ipynb)
+
+This project, `Feature_Engineering_Solution.ipynb` file, focuses on feature engineering techniques, leveraging domain knowledge and data manipulation to enhance predictive modeling for real estate pricing.
+
+<details>
+  <summary>Click to see details</summary>
+  <br>
+<ul>
+  <li></li>
+</ul>
+
+<p>By creating indicator variables, engineering interaction features, and encoding categorical variables, this project prepares a refined dataset for machine learning, culminating in a clean and ready-to-train model saved as <code>final.csv</code>.</p>
+
+</details>
+
