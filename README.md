@@ -564,7 +564,19 @@ This project, `Feature_Engineering_Solution.ipynb` file, focuses on feature engi
   <summary>Click to see details</summary>
   <br>
 <ul>
-  <li></li>
+  <li><strong>Mounting Google Drive in Google Colab:</strong>
+    <ul>
+      <li>Enables seamless access to files stored in Google Drive for data loading.</li>
+    </ul>
+  </li>
+  <li>Importing Required Libraries:
+    <ul>
+      <li><strong>Pandas:</strong> For DataFrame manipulation.</li>
+      <li><strong>Matplotlib:</strong> For data visualization.</li>
+      <li>Enable inline plotting within the notebook.</li>
+      <li><strong>Seaborn:</strong> For enhanced visualizations.</li>
+    </ul>
+  </li>
 </ul>
 
 <p>By creating indicator variables, engineering interaction features, and encoding categorical variables, this project prepares a refined dataset for machine learning, culminating in a clean and ready-to-train model saved as <code>final.csv</code>.</p>
