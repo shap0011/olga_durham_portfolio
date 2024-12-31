@@ -577,6 +577,83 @@ This project, `Feature_Engineering_Solution.ipynb` file, focuses on feature engi
       <li><strong>Seaborn:</strong> For enhanced visualizations.</li>
     </ul>
   </li>
+  <li><strong>Importing the Cleaned Dataset (`cleaned__df.csv`):</strong>
+    <ul>
+      <li>Load the dataset into a Pandas DataFrame.</li>
+    </ul>
+  </li>
+  <li><strong>Exploring the Dataset:</strong>
+    <ul>
+      <li>Display the first two records using the `.head(2)` function.</li>
+      <li>Generate summary statistics with the `.describe()` function.</li>
+    </ul>
+  </li>
+  <li><strong>Quick EDA Hack:</strong>
+    <ul>
+      <li>Install the profiling library using `!pip install ydata-profiling`.</li>
+      <li>Import the `ydata_profiling` package to generate a Pandas Profiling Report, including:
+        <ul>
+          <li>Overview</li>
+          <li>Variables</li>
+          <li>Interactions</li>
+          <li>Correlations</li>
+          <li>Missing Values</li>
+          <li>Samples</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4>I. Domain Knowledge:</h4>
+
+<ul>
+  <li><strong>Popular Properties – 2 Bedrooms and 2 Bathrooms:</strong>
+    <ul>
+      <li>Create an indicator variable `df['popular']` for properties with 2 beds and 2 baths.</li>
+      <li>Check the number of properties with 2 baths and 2 beds using `.value_counts()`.</li>
+    </ul>
+  </li>
+  <li><strong>Housing Market Recession – Lowest Housing Prices (2010–2013):</strong>
+    <ul>
+      <li>Create a new variable `df['recession']` to identify properties sold during this period.</li>
+      <li>Check how many properties were sold during the recession using `.value_counts()`.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>II. Interaction Features:</h4>
+
+<ul>
+  <li><strong>Feature Engineering from Domain Knowledge:</strong>
+    <ul>
+      <li><strong>Property Age:</strong>
+        <ul>
+          <li>Create a new feature, `df['property_age']`, by subtracting `year_built` from `year_sold`.</li>
+          <li>Perform a sanity check by running `df.describe()` to verify the statistics for `property_age`.</li>
+          <li>Identify observations where `property_age` < 0 using `.value_counts()`.</li>
+          <li>Remove rows where `property_age` is less than 0 to clean the dataset.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4>III. Dummy Variables:</h4>
+
+<ul>
+  <li><strong>Creating Dummy Variables:</strong>
+    <ul>
+      <li>Generate dummy variables for all categorical features using the `pd.get_dummies()` function.</li>
+      <li>Create dummy variables specifically for the `property_type` column.</li>
+      <li>Perform a final check using the `df.info()` function.</li>
+    </ul>
+  </li>
+  <li><strong>Saving the Dataset:</strong>
+    <ul>
+      <li>Save the processed dataset as `final.csv` using `.to_csv()`.</li>
+    </ul>
+  </li>
 </ul>
 
 <p>By creating indicator variables, engineering interaction features, and encoding categorical variables, this project prepares a refined dataset for machine learning, culminating in a clean and ready-to-train model saved as <code>final.csv</code>.</p>
